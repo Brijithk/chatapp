@@ -2,6 +2,6 @@ import React from 'react'
 
 export const New = () => {
   return (
-    <div>small change 7</div>
+    <div>small change 8</div>
   )
 }
