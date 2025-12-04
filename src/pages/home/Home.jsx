@@ -1,16 +1,11 @@
 import React from 'react'
 import Sidebar from '../../components/sidebar/Sidebar'
 import { obj } from '../../data/constant'
+import "bootstrap/dist/css/bootstrap.min.css";
 const Home = () => {
   return (
-    <div>
-        {/* <Sidebar /> */}
-        {obj.map((item, index) => (
-          <div key={index}>
-            <p>Name: {item.name}</p>
-            <p>Age: {item.age}</p>
-          </div>
-        ))}
+    <div className={"d-flex justify-content-center align-items-center vh-100"}>
+      <h1>Welcome to Bootstrap</h1>
     </div>
   )
 }
