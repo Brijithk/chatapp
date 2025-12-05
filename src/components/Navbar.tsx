@@ -1,16 +1,15 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import './index.css';
 
 const Navbar = () => {
+  console.log("Bootstrap CSS check:", getComputedStyle(document.body).padding);
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
 
-        {/* Brand */}
         <h2 className="navbar-brand m-0">MyApp</h2>
 
-        {/* Toggler Button */}
         <button
           className="navbar-toggler"
           type="button"
@@ -23,17 +22,14 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Collapsible Menu */}
         <div className="collapse navbar-collapse" id="navMenu">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link" href="#">Home</a>
             </li>
-
             <li className="nav-item">
               <a className="nav-link" href="#">About</a>
             </li>
-
             <li className="nav-item">
               <a className="nav-link" href="#">Contact</a>
             </li>
