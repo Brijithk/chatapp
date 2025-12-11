@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <h1>Welcome to Bootstrap 3213</h1>
+      <h1>Welcome to Bootstrap 3214</h1>
       <ul className="nav nav-tabs">
   <li className="nav-item">
     <a className="nav-link active" href="#">Overview</a>
